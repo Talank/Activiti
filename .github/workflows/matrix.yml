@@ -21,4 +21,3 @@ jobs:
           distribution: 'temurin'
       - name: Run the Maven verify phase
         run: mvn clean test
-        continue-on-error: true
